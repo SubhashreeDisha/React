@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Debouncing from "./Debouncing/Debouncing";
+//import Debouncing from "./Debouncing/Debouncing";
 
 // import Api from "../Api/Api";
-// import Circle from './Circle'
+import Circle from './Circle'
 // import ImagetagUseref from './ImagetagUseref'
 // import LoginForm1 from './LoginForm1'
 // import Form from './Form'
@@ -55,7 +55,7 @@ export default function App() {
       {/* <ColorChange /> */}
       {/* <LoginForm1/> */}
       {/* <ImagetagUseref/> */}
-      {/* <Circle/> */}
+      <Circle/> 
       {/*{--------------------------------------------------------------------------------------------------------------}
      <Context1.Provider value={{a:count,b:setCount}}>
          <Consume1/>
